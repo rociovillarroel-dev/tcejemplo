@@ -80,7 +80,7 @@ import { test, expect } from '@playwright/test';
     }
     await page.getByRole('button', { name: 'Guardar cambios' }).click();
     });
-
+//Rocio
   test('Verificar Restriccion de cancelacion sin seleccion de nuevo horario', async ({ page }) => {
     let validationAlertDetected = false;
     let validationAlertMessage = '';
@@ -169,3 +169,4 @@ import { test, expect } from '@playwright/test';
     // Esperar un poco más para poder observar el resultado
     await page.waitForTimeout(3000);
   });
+
